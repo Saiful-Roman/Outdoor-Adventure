@@ -12,13 +12,12 @@ img{
 	display: block;
 }
 header{
-	background-image: url(../images/mountains.jpg);
+	background-image: url(../images/backlit.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	
 	background-position: center;
 	background-color: #000000ed;
-	background-blend-mode: difference;
+	background-blend-mode: unset;
 }
 .container{
 	width: 1000px;
@@ -35,13 +34,13 @@ header{
 	flex-basis: 20%;
 }
 .logo h2{
-	font-size: 20px;
+	font-size: 34px;
 	color: #fff;
 	text-transform: capitalize;
 }
 .logo span{
-    font-weight: 100;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 20px;
     display: block;
 }
 nav{
@@ -80,14 +79,14 @@ nav ul li:nth-child(7) a{
 	padding: 150px;
 }
 .banner h3{
-	font-size: 25px;
+	font-size: 27px;
 	color: #fff;
 	font-style: italic;
 	font-weight: 500;
 }
 .banner span{
 
-width: 100px;
+width: 150px;
 
 height: 3px;
 
@@ -118,8 +117,7 @@ display: block;
 
 .upcoming-section{
 	margin: 0 auto;
-	padding-top: 100px;
-	padding-bottom: 20px;
+	padding-top: 50px;
 }
 .upcoming-section h2{
 	font-size: 25px;
@@ -128,7 +126,7 @@ display: block;
 	font-weight: 700;
 }
 .upcoming-section span{
-	width: 50px;
+	width: 75px;
 	height: 3px;
 	margin: 10px auto 0;
 	background: red;
@@ -136,7 +134,7 @@ display: block;
 }
 
 .events-section{
-	padding: 20px 0;
+	
 }
 .img-section{
 	display: flex;
@@ -145,15 +143,16 @@ display: block;
     align-items: center;
 }
 .image{
-	flex-basis: 55%;
+	flex-basis: 50%;
 	max-width: 50%;
-	padding: 62px;
+	padding: 5px 15px;
 	text-align: center;
+	box-sizing: border-box;
 }
 .image img{
 	border-radius:5px;
 	object-fit: cover;
-	height: 277px;
+	height: 350px;
 	width: 500px;
 }
 .image h3{
@@ -276,6 +275,18 @@ display: block;
 	object-fit: cover;
 }
 
+.copyright{
+background: #191919;
+color: #ffffff;
+text-align: center;
+font-size: 18px;
+padding: 45px 0;
+}
+
+.copyright p{
+    
+line-height: .6;
+}
 
 
 
